@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26F3D935036CA586F69E11AC /* libPods-FConfigSampleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CDD0FA857893F837BEE05A /* libPods-FConfigSampleApp.a */; };
+		342FC86C1EFC8934009E8AFA /* LoaderViewController+Themes.m in Sources */ = {isa = PBXBuildFile; fileRef = 342FC86B1EFC8934009E8AFA /* LoaderViewController+Themes.m */; };
+		342FC8701EFC8AFC009E8AFA /* PhotoViewController+Themes.m in Sources */ = {isa = PBXBuildFile; fileRef = 342FC86F1EFC8AFC009E8AFA /* PhotoViewController+Themes.m */; };
+		342FC8731EFC9811009E8AFA /* ConfigUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 342FC8721EFC9811009E8AFA /* ConfigUtility.m */; };
+		345147011F1D9A31006184F7 /* StPatrickIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 345147001F1D9A31006184F7 /* StPatrickIcon.pdf */; };
+		3453B7E71EFB0557004E24CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3453B7E61EFB0557004E24CE /* main.m */; };
+		3453B7EA1EFB0557004E24CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3453B7E91EFB0557004E24CE /* AppDelegate.m */; };
+		3453B7ED1EFB0557004E24CE /* LoaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3453B7EC1EFB0557004E24CE /* LoaderViewController.m */; };
+		3453B7F21EFB0557004E24CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3453B7F11EFB0557004E24CE /* Assets.xcassets */; };
+		3453B7F51EFB0557004E24CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3453B7F31EFB0557004E24CE /* LaunchScreen.storyboard */; };
+		3453B7FE1EFB0FEB004E24CE /* ConfigNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3453B7FD1EFB0FEB004E24CE /* ConfigNavigationController.m */; };
+		3453B8021EFB10C9004E24CE /* UIColor+ConfigColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3453B8011EFB10C9004E24CE /* UIColor+ConfigColor.m */; };
+		3453B8051EFB1D00004E24CE /* PhotoCollectionFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3453B8041EFB1D00004E24CE /* PhotoCollectionFlowLayout.m */; };
+		3453B8081EFB2F09004E24CE /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3453B8071EFB2F09004E24CE /* PhotoViewController.m */; };
+		3453B80B1EFB35A2004E24CE /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3453B80A1EFB35A2004E24CE /* PhotoCollectionViewCell.m */; };
+		348223F71F181D4C008428E2 /* LineSeparator.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 348223F51F181D4C008428E2 /* LineSeparator.pdf */; };
+		348223F91F182146008428E2 /* XmasIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 348223F81F182146008428E2 /* XmasIcon.pdf */; };
+		3490FCCE1F1987C2008A61CB /* DiwaliIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3490FCCC1F1987C2008A61CB /* DiwaliIcon.pdf */; };
+		3490FCCF1F1987C2008A61CB /* LanternIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3490FCCD1F1987C2008A61CB /* LanternIcon.pdf */; };
+		349746351F0EC83F008CCBF6 /* FlickrPhotoService.m in Sources */ = {isa = PBXBuildFile; fileRef = 349746341F0EC83F008CCBF6 /* FlickrPhotoService.m */; };
+		349746381F0ECF59008CCBF6 /* FlickrPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 349746371F0ECF59008CCBF6 /* FlickrPhoto.m */; };
+		349E6CD31F01AF90007C4D03 /* PhotoShelfView.m in Sources */ = {isa = PBXBuildFile; fileRef = 349E6CD21F01AF90007C4D03 /* PhotoShelfView.m */; };
+		34D2E64D2051F0680055D7FD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D2E64C2051F0680055D7FD /* AVFoundation.framework */; };
+		34D2E64F2051F0830055D7FD /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D2E64E2051F0830055D7FD /* CoreTelephony.framework */; };
+		34D2E6512051F0C30055D7FD /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D2E6502051F0C30055D7FD /* CoreMedia.framework */; };
+		34D2E6532051F0D30055D7FD /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D2E6522051F0D20055D7FD /* WebKit.framework */; };
+		34D2E6552051F0D60055D7FD /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D2E6542051F0D60055D7FD /* SafariServices.framework */; };
+		34D2E6572051F13A0055D7FD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D2E6562051F13A0055D7FD /* libz.tbd */; };
+		34D2E6592051F1590055D7FD /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D2E6582051F1590055D7FD /* AdSupport.framework */; };
+		34D2E65D2051F43D0055D7FD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D2E65C2051F43D0055D7FD /* SystemConfiguration.framework */; };
+		34D2E65F2051F4420055D7FD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D2E65E2051F4420055D7FD /* Security.framework */; };
+		34D2E6612051F4A30055D7FD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D2E6602051F4A20055D7FD /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13CDD0FA857893F837BEE05A /* libPods-FConfigSampleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FConfigSampleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		342FC86B1EFC8934009E8AFA /* LoaderViewController+Themes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LoaderViewController+Themes.m"; sourceTree = "<group>"; };
+		342FC86D1EFC8A4D009E8AFA /* LoaderViewController+Themes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoaderViewController+Themes.h"; sourceTree = "<group>"; };
+		342FC86E1EFC8AFC009E8AFA /* PhotoViewController+Themes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PhotoViewController+Themes.h"; sourceTree = "<group>"; };
+		342FC86F1EFC8AFC009E8AFA /* PhotoViewController+Themes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PhotoViewController+Themes.m"; sourceTree = "<group>"; };
+		342FC8711EFC9811009E8AFA /* ConfigUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigUtility.h; sourceTree = "<group>"; };
+		342FC8721EFC9811009E8AFA /* ConfigUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigUtility.m; sourceTree = "<group>"; };
+		345147001F1D9A31006184F7 /* StPatrickIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = StPatrickIcon.pdf; sourceTree = "<group>"; };
+		3453B7E21EFB0557004E24CE /* FConfigSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FConfigSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3453B7E61EFB0557004E24CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3453B7E81EFB0557004E24CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3453B7E91EFB0557004E24CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3453B7EB1EFB0557004E24CE /* LoaderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoaderViewController.h; sourceTree = "<group>"; };
+		3453B7EC1EFB0557004E24CE /* LoaderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoaderViewController.m; sourceTree = "<group>"; };
+		3453B7F11EFB0557004E24CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3453B7F41EFB0557004E24CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3453B7F61EFB0557004E24CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3453B7FC1EFB0FEB004E24CE /* ConfigNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigNavigationController.h; sourceTree = "<group>"; };
+		3453B7FD1EFB0FEB004E24CE /* ConfigNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigNavigationController.m; sourceTree = "<group>"; };
+		3453B8001EFB10C9004E24CE /* UIColor+ConfigColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ConfigColor.h"; sourceTree = "<group>"; };
+		3453B8011EFB10C9004E24CE /* UIColor+ConfigColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ConfigColor.m"; sourceTree = "<group>"; };
+		3453B8031EFB1D00004E24CE /* PhotoCollectionFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionFlowLayout.h; sourceTree = "<group>"; };
+		3453B8041EFB1D00004E24CE /* PhotoCollectionFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionFlowLayout.m; sourceTree = "<group>"; };
+		3453B8061EFB2F09004E24CE /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		3453B8071EFB2F09004E24CE /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		3453B8091EFB35A2004E24CE /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		3453B80A1EFB35A2004E24CE /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		348223F51F181D4C008428E2 /* LineSeparator.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = LineSeparator.pdf; sourceTree = "<group>"; };
+		348223F81F182146008428E2 /* XmasIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = XmasIcon.pdf; sourceTree = "<group>"; };
+		3490FCCC1F1987C2008A61CB /* DiwaliIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DiwaliIcon.pdf; sourceTree = "<group>"; };
+		3490FCCD1F1987C2008A61CB /* LanternIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = LanternIcon.pdf; sourceTree = "<group>"; };
+		349746331F0EC83F008CCBF6 /* FlickrPhotoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhotoService.h; sourceTree = "<group>"; };
+		349746341F0EC83F008CCBF6 /* FlickrPhotoService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoService.m; sourceTree = "<group>"; };
+		349746361F0ECF59008CCBF6 /* FlickrPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhoto.h; sourceTree = "<group>"; };
+		349746371F0ECF59008CCBF6 /* FlickrPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhoto.m; sourceTree = "<group>"; };
+		349E6CD11F01AF90007C4D03 /* PhotoShelfView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoShelfView.h; sourceTree = "<group>"; };
+		349E6CD21F01AF90007C4D03 /* PhotoShelfView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoShelfView.m; sourceTree = "<group>"; };
+		34D2E64C2051F0680055D7FD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		34D2E64E2051F0830055D7FD /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		34D2E6502051F0C30055D7FD /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		34D2E6522051F0D20055D7FD /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		34D2E6542051F0D60055D7FD /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		34D2E6562051F13A0055D7FD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		34D2E6582051F1590055D7FD /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		34D2E65C2051F43D0055D7FD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		34D2E65E2051F4420055D7FD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		34D2E6602051F4A20055D7FD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6A16D81723F666DB08230EE4 /* Pods-FConfigSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FConfigSampleApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FConfigSampleApp/Pods-FConfigSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		AFAFD1F3B659E970937F77F7 /* Pods-FConfigSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FConfigSampleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FConfigSampleApp/Pods-FConfigSampleApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3453B7DF1EFB0557004E24CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D2E6612051F4A30055D7FD /* CoreLocation.framework in Frameworks */,
+				34D2E65F2051F4420055D7FD /* Security.framework in Frameworks */,
+				34D2E65D2051F43D0055D7FD /* SystemConfiguration.framework in Frameworks */,
+				34D2E6592051F1590055D7FD /* AdSupport.framework in Frameworks */,
+				34D2E6572051F13A0055D7FD /* libz.tbd in Frameworks */,
+				34D2E6552051F0D60055D7FD /* SafariServices.framework in Frameworks */,
+				34D2E6532051F0D30055D7FD /* WebKit.framework in Frameworks */,
+				34D2E6512051F0C30055D7FD /* CoreMedia.framework in Frameworks */,
+				34D2E64F2051F0830055D7FD /* CoreTelephony.framework in Frameworks */,
+				34D2E64D2051F0680055D7FD /* AVFoundation.framework in Frameworks */,
+				26F3D935036CA586F69E11AC /* libPods-FConfigSampleApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ACD0A6ADFF0B552AAE7C55C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A16D81723F666DB08230EE4 /* Pods-FConfigSampleApp.debug.xcconfig */,
+				AFAFD1F3B659E970937F77F7 /* Pods-FConfigSampleApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3453B7D91EFB0557004E24CE = {
+			isa = PBXGroup;
+			children = (
+				3453B7E41EFB0557004E24CE /* FConfigSampleApp */,
+				3453B7E31EFB0557004E24CE /* Products */,
+				3D875FB0CC8A6A60C61A5BC0 /* Frameworks */,
+				0ACD0A6ADFF0B552AAE7C55C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		3453B7E31EFB0557004E24CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3453B7E21EFB0557004E24CE /* FConfigSampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3453B7E41EFB0557004E24CE /* FConfigSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				3453B7E81EFB0557004E24CE /* AppDelegate.h */,
+				3453B7E91EFB0557004E24CE /* AppDelegate.m */,
+				3490FCCB1F194025008A61CB /* Flickr+Network */,
+				3490FCCA1F193FF3008A61CB /* Collection View Utility */,
+				3490FCC91F193FE2008A61CB /* UI Themes */,
+				3490FCC81F193FA0008A61CB /* View Controllers */,
+				3453B7FF1EFB1072004E24CE /* Utility */,
+				3453B7F11EFB0557004E24CE /* Assets.xcassets */,
+				3453B7F31EFB0557004E24CE /* LaunchScreen.storyboard */,
+				3453B7F61EFB0557004E24CE /* Info.plist */,
+				3453B7E51EFB0557004E24CE /* Supporting Files */,
+			);
+			path = FConfigSampleApp;
+			sourceTree = "<group>";
+		};
+		3453B7E51EFB0557004E24CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				345147001F1D9A31006184F7 /* StPatrickIcon.pdf */,
+				3490FCCC1F1987C2008A61CB /* DiwaliIcon.pdf */,
+				3490FCCD1F1987C2008A61CB /* LanternIcon.pdf */,
+				348223F81F182146008428E2 /* XmasIcon.pdf */,
+				348223F51F181D4C008428E2 /* LineSeparator.pdf */,
+				3453B7E61EFB0557004E24CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3453B7FF1EFB1072004E24CE /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				342FC8711EFC9811009E8AFA /* ConfigUtility.h */,
+				342FC8721EFC9811009E8AFA /* ConfigUtility.m */,
+				3453B8001EFB10C9004E24CE /* UIColor+ConfigColor.h */,
+				3453B8011EFB10C9004E24CE /* UIColor+ConfigColor.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		3490FCC81F193FA0008A61CB /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3453B7EB1EFB0557004E24CE /* LoaderViewController.h */,
+				3453B7EC1EFB0557004E24CE /* LoaderViewController.m */,
+				3453B8061EFB2F09004E24CE /* PhotoViewController.h */,
+				3453B8071EFB2F09004E24CE /* PhotoViewController.m */,
+				3453B7FC1EFB0FEB004E24CE /* ConfigNavigationController.h */,
+				3453B7FD1EFB0FEB004E24CE /* ConfigNavigationController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		3490FCC91F193FE2008A61CB /* UI Themes */ = {
+			isa = PBXGroup;
+			children = (
+				342FC86D1EFC8A4D009E8AFA /* LoaderViewController+Themes.h */,
+				342FC86B1EFC8934009E8AFA /* LoaderViewController+Themes.m */,
+				342FC86E1EFC8AFC009E8AFA /* PhotoViewController+Themes.h */,
+				342FC86F1EFC8AFC009E8AFA /* PhotoViewController+Themes.m */,
+			);
+			name = "UI Themes";
+			sourceTree = "<group>";
+		};
+		3490FCCA1F193FF3008A61CB /* Collection View Utility */ = {
+			isa = PBXGroup;
+			children = (
+				3453B8031EFB1D00004E24CE /* PhotoCollectionFlowLayout.h */,
+				3453B8041EFB1D00004E24CE /* PhotoCollectionFlowLayout.m */,
+				3453B8091EFB35A2004E24CE /* PhotoCollectionViewCell.h */,
+				3453B80A1EFB35A2004E24CE /* PhotoCollectionViewCell.m */,
+				349E6CD11F01AF90007C4D03 /* PhotoShelfView.h */,
+				349E6CD21F01AF90007C4D03 /* PhotoShelfView.m */,
+			);
+			name = "Collection View Utility";
+			sourceTree = "<group>";
+		};
+		3490FCCB1F194025008A61CB /* Flickr+Network */ = {
+			isa = PBXGroup;
+			children = (
+				349746331F0EC83F008CCBF6 /* FlickrPhotoService.h */,
+				349746341F0EC83F008CCBF6 /* FlickrPhotoService.m */,
+				349746361F0ECF59008CCBF6 /* FlickrPhoto.h */,
+				349746371F0ECF59008CCBF6 /* FlickrPhoto.m */,
+			);
+			name = "Flickr+Network";
+			sourceTree = "<group>";
+		};
+		3D875FB0CC8A6A60C61A5BC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34D2E6602051F4A20055D7FD /* CoreLocation.framework */,
+				34D2E65E2051F4420055D7FD /* Security.framework */,
+				34D2E65C2051F43D0055D7FD /* SystemConfiguration.framework */,
+				34D2E6582051F1590055D7FD /* AdSupport.framework */,
+				34D2E6562051F13A0055D7FD /* libz.tbd */,
+				34D2E6542051F0D60055D7FD /* SafariServices.framework */,
+				34D2E6522051F0D20055D7FD /* WebKit.framework */,
+				34D2E6502051F0C30055D7FD /* CoreMedia.framework */,
+				34D2E64E2051F0830055D7FD /* CoreTelephony.framework */,
+				34D2E64C2051F0680055D7FD /* AVFoundation.framework */,
+				13CDD0FA857893F837BEE05A /* libPods-FConfigSampleApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3453B7E11EFB0557004E24CE /* FConfigSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3453B7F91EFB0557004E24CE /* Build configuration list for PBXNativeTarget "FConfigSampleApp" */;
+			buildPhases = (
+				6C8EC1498EE81FED4F3CB069 /* [CP] Check Pods Manifest.lock */,
+				3453B7DE1EFB0557004E24CE /* Sources */,
+				3453B7DF1EFB0557004E24CE /* Frameworks */,
+				3453B7E01EFB0557004E24CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FConfigSampleApp;
+			productName = FConfigSampleApp;
+			productReference = 3453B7E21EFB0557004E24CE /* FConfigSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3453B7DA1EFB0557004E24CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Yuning Jin";
+				TargetAttributes = {
+					3453B7E11EFB0557004E24CE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2ARNJY38FW;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3453B7DD1EFB0557004E24CE /* Build configuration list for PBXProject "FConfigSampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3453B7D91EFB0557004E24CE;
+			productRefGroup = 3453B7E31EFB0557004E24CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3453B7E11EFB0557004E24CE /* FConfigSampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3453B7E01EFB0557004E24CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3453B7F51EFB0557004E24CE /* LaunchScreen.storyboard in Resources */,
+				348223F71F181D4C008428E2 /* LineSeparator.pdf in Resources */,
+				348223F91F182146008428E2 /* XmasIcon.pdf in Resources */,
+				3490FCCE1F1987C2008A61CB /* DiwaliIcon.pdf in Resources */,
+				345147011F1D9A31006184F7 /* StPatrickIcon.pdf in Resources */,
+				3490FCCF1F1987C2008A61CB /* LanternIcon.pdf in Resources */,
+				3453B7F21EFB0557004E24CE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C8EC1498EE81FED4F3CB069 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FConfigSampleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3453B7DE1EFB0557004E24CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3453B7FE1EFB0FEB004E24CE /* ConfigNavigationController.m in Sources */,
+				349746381F0ECF59008CCBF6 /* FlickrPhoto.m in Sources */,
+				3453B7ED1EFB0557004E24CE /* LoaderViewController.m in Sources */,
+				349E6CD31F01AF90007C4D03 /* PhotoShelfView.m in Sources */,
+				3453B7EA1EFB0557004E24CE /* AppDelegate.m in Sources */,
+				3453B7E71EFB0557004E24CE /* main.m in Sources */,
+				342FC8731EFC9811009E8AFA /* ConfigUtility.m in Sources */,
+				3453B8021EFB10C9004E24CE /* UIColor+ConfigColor.m in Sources */,
+				342FC8701EFC8AFC009E8AFA /* PhotoViewController+Themes.m in Sources */,
+				3453B80B1EFB35A2004E24CE /* PhotoCollectionViewCell.m in Sources */,
+				3453B8081EFB2F09004E24CE /* PhotoViewController.m in Sources */,
+				349746351F0EC83F008CCBF6 /* FlickrPhotoService.m in Sources */,
+				3453B8051EFB1D00004E24CE /* PhotoCollectionFlowLayout.m in Sources */,
+				342FC86C1EFC8934009E8AFA /* LoaderViewController+Themes.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3453B7F31EFB0557004E24CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3453B7F41EFB0557004E24CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3453B7F71EFB0557004E24CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3453B7F81EFB0557004E24CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3453B7FA1EFB0557004E24CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A16D81723F666DB08230EE4 /* Pods-FConfigSampleApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2ARNJY38FW;
+				INFOPLIST_FILE = FConfigSampleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Flurry-iOS-SDK\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Flurry.FConfigSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3453B7FB1EFB0557004E24CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFAFD1F3B659E970937F77F7 /* Pods-FConfigSampleApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2ARNJY38FW;
+				INFOPLIST_FILE = FConfigSampleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Flurry-iOS-SDK\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Flurry.FConfigSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3453B7DD1EFB0557004E24CE /* Build configuration list for PBXProject "FConfigSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3453B7F71EFB0557004E24CE /* Debug */,
+				3453B7F81EFB0557004E24CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3453B7F91EFB0557004E24CE /* Build configuration list for PBXNativeTarget "FConfigSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3453B7FA1EFB0557004E24CE /* Debug */,
+				3453B7FB1EFB0557004E24CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3453B7DA1EFB0557004E24CE /* Project object */;
+}
