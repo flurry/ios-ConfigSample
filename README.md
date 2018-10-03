@@ -1,10 +1,6 @@
 Flurry Remote Config Sample App iOS
 ==============================
 
-_Flurry Remote Config is a new Beta product offered from Flurry.
-We’re currently accepting requests for the invite only Beta.
-If you would like to be included in the Beta, please email support@flurry.com._
-
 This Sample app guide walks you through the steps of integrating Flurry Config into your iOS app.
 
 Introduction
