@@ -48,8 +48,8 @@ the Flurry Remote Config APIs.
 
 ### Build and run the Flurry Config sample app iOS
 
-1. Download the [Flurry Config iOS sample code](https://git.corp.yahoo.com/yuningj/FlurryConfigSample).
-	`git clone https://git.corp.yahoo.com/yuningj/FlurryConfigSample`
+1. Download the [Flurry Config iOS sample code](https://github.com/flurry/ios-ConfigSample).
+	`git clone https://github.com/flurry/ios-ConfigSample.git`
 2. Open the Xcode workspace in the folder of git clone.
 3. Build and run the sample app.
 > You will need to replace with your own created Flurry API Key in your sample app
