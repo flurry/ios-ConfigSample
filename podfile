@@ -6,7 +6,6 @@ target 'FConfigSampleApp' do
   # use_frameworks!
   pod 'Flurry-iOS-SDK/FlurrySDK' #Analytics Pod
   pod 'Flurry-iOS-SDK/FlurryConfig' #Config Pod
-  pod 'Flurry-iOS-SDK/FlurryAds' #Advertising Pod (requires Analytics)
   # Pods for FConfigSampleApp
 
 end
